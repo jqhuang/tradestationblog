@@ -1,0 +1,135 @@
+/* Shell */
+
+@font-face {
+    font-family: 'proxima_novaregular';
+    src: url('../fonts/proximanova-regular.eot');
+    src: url('../fonts/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular.woff') format('woff'),
+         url('../fonts/proximanova-regular.ttf') format('truetype'),
+         url('../fonts/proximanova-regular.svg#proxima_novaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('../fonts/proximanova-semibold.eot');
+    src: url('../fonts/proximanova-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-semibold.woff') format('woff'),
+         url('../fonts/proximanova-semibold.ttf') format('truetype'),
+         url('../fonts/proximanova-semibold.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway_thin.eot');
+    src: url('../fonts/raleway_thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway_thin.woff') format('woff'),
+         url('../fonts/raleway_thin.ttf') format('truetype'),
+         url('../fonts/raleway_thin.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	//background-color: #f6f7fb;
+	// background-color: #F0F0F1;
+	background-color: #fcfcfc;
+	// background-color: #fff;
+}
+
+a:hover {
+		text-decoration: underline;
+}
+
+.top-line {
+	height: 6px;
+	background-color: #2f74bc;
+}
+
+header {
+	background-color: #303134;
+	height: 87px;
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,.38);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.38);
+	box-shadow: 0 2px 4px rgba(0,0,0,.38);
+
+	margin-bottom: 30px;
+
+	h2 {
+		color: #e1e1e1;
+	}
+}
+
+.homepage {
+	h3 {
+		margin-bottom: 0.125em;
+		font-size: 2.1em;
+		line-height: 1.25em;
+	}
+	
+	p {
+		margin-top: 15px;
+	}
+
+
+}
+
+.panel {
+	background-color: #fff;
+	border-color: #ECECEC;
+	padding: 50px;
+}
+
+hr {
+	border: solid #f2f2f0;
+	border-width: 1px 0 0;
+	margin: 20px 0;
+}
+
+.logo-image {
+	margin-top: 23px;
+}
+
+.post-user-avatar {
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 5px;
+	overflow: hidden;
+	background-color: #F2F2F0;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.post-author {
+	color: #bbb;
+	padding-bottom: 10px;
+	font-size: .8em;
+}
+
+.title-news {
+	font-family: "ralewaythin", "proxima_novaregular","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	// color: #979797;
+	color: #ACACAC;
+}
+
+.title-news {
+	font-size: 1.5em !important;
+}
+
+.title-hr {
+	margin: 10px 0;
+}
+
+
+
