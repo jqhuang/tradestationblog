@@ -6698,7 +6698,7 @@ a:hover {
 
 /* line 52, ../sass/defaults/shell.scss */
 .top-line {
-  height: 6px;
+  height: 30px;
   background-color: #2f74bc;
 }
 
@@ -6709,44 +6709,53 @@ header {
   -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.38);
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.38);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.38);
-  margin-bottom: 30px;
 }
 /* line 66, ../sass/defaults/shell.scss */
 header h2 {
   color: #e1e1e1;
 }
 
-/* line 72, ../sass/defaults/shell.scss */
+/* line 71, ../sass/defaults/shell.scss */
+nav {
+  background-color: #5A85B6;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* line 79, ../sass/defaults/shell.scss */
 .homepage h3 {
   margin-bottom: 0.125em;
   font-size: 2.1em;
   line-height: 1.25em;
+  font-family: "Lato","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 900;
 }
-/* line 78, ../sass/defaults/shell.scss */
+/* line 87, ../sass/defaults/shell.scss */
 .homepage p {
   margin-top: 15px;
 }
 
-/* line 85, ../sass/defaults/shell.scss */
+/* line 94, ../sass/defaults/shell.scss */
 .panel {
   background-color: #fff;
   border-color: #ECECEC;
   padding: 50px;
 }
 
-/* line 91, ../sass/defaults/shell.scss */
+/* line 100, ../sass/defaults/shell.scss */
 hr {
   border: solid #f2f2f0;
   border-width: 1px 0 0;
   margin: 20px 0;
 }
 
-/* line 97, ../sass/defaults/shell.scss */
+/* line 106, ../sass/defaults/shell.scss */
 .logo-image {
   margin-top: 23px;
 }
 
-/* line 101, ../sass/defaults/shell.scss */
+/* line 110, ../sass/defaults/shell.scss */
 .post-user-avatar {
   float: right;
   width: 50px;
@@ -6760,27 +6769,57 @@ hr {
   border-radius: 100%;
 }
 
-/* line 114, ../sass/defaults/shell.scss */
+/* line 123, ../sass/defaults/shell.scss */
 .post-author {
   color: #bbb;
   padding-bottom: 10px;
   font-size: .8em;
 }
 
-/* line 120, ../sass/defaults/shell.scss */
+/* line 129, ../sass/defaults/shell.scss */
 .title-news {
-  font-family: "ralewaythin", "proxima_novaregular","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "ralewaythin", "proxima_novaregular","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
   color: #ACACAC;
 }
 
-/* line 126, ../sass/defaults/shell.scss */
+/* line 135, ../sass/defaults/shell.scss */
 .title-news {
   font-size: 1.5em !important;
 }
 
-/* line 130, ../sass/defaults/shell.scss */
+/* line 139, ../sass/defaults/shell.scss */
 .title-hr {
   margin: 10px 0;
 }
 
+/* line 144, ../sass/defaults/shell.scss */
+.footer-top {
+  background-color: #353a40;
+  height: 220px;
+  width: 100%;
+}
+
+/* line 150, ../sass/defaults/shell.scss */
+footer {
+  background-color: #2a2d34;
+  height: 74px;
+  width: 100%;
+}
+
 /* Variables */
+/* Variables */
+/* line 5, ../sass/partials/buttons.scss */
+.btn-green {
+  width: 102px;
+  height: 32px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background-color: #448306;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+}

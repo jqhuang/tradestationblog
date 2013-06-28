@@ -50,7 +50,7 @@ a:hover {
 }
 
 .top-line {
-	height: 6px;
+	height: 30px;
 	background-color: #2f74bc;
 }
 
@@ -61,11 +61,18 @@ header {
 	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.38);
 	box-shadow: 0 2px 4px rgba(0,0,0,.38);
 
-	margin-bottom: 30px;
+	// margin-bottom: 30px;
 
 	h2 {
 		color: #e1e1e1;
 	}
+}
+
+nav {
+	background-color: #5A85B6;
+	height: 30px;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 .homepage {
@@ -73,6 +80,8 @@ header {
 		margin-bottom: 0.125em;
 		font-size: 2.1em;
 		line-height: 1.25em;
+		font-family: "Lato","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-weight: 900;
 	}
 	
 	p {
@@ -118,7 +127,7 @@ hr {
 }
 
 .title-news {
-	font-family: "ralewaythin", "proxima_novaregular","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: "ralewaythin", "proxima_novaregular","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 	// color: #979797;
 	color: #ACACAC;
 }
@@ -129,6 +138,20 @@ hr {
 
 .title-hr {
 	margin: 10px 0;
+}
+
+
+.footer-top {
+	background-color: #353a40;
+	height: 220px;
+	width: 100%;
+}
+
+footer {
+	background-color: #2a2d34;
+	height: 74px;
+	width: 100%;
+
 }
 
 
